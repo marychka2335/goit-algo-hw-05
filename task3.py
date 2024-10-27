@@ -141,7 +141,6 @@ def main():
     results.append(("article2", pattern2, *test_search(knuth_morris_pratt, article2, pattern2)))
     results.append(("article2", pattern2, *test_search(rabin_karp, article2, pattern2)))
 
-    # Генерація markdown-документу
     markdown = f"""
 ## Порівняння алгоритмів пошуку підрядка
 
